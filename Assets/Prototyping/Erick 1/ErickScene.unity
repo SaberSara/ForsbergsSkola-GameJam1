@@ -252,8 +252,8 @@ MonoBehaviour:
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
+  m_SoftZoneWidth: 0.154
+  m_SoftZoneHeight: 0.18
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
@@ -393,7 +393,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 40
+  m_Constraints: 56
   m_CollisionDetection: 0
 --- !u!114 &518426308
 MonoBehaviour:

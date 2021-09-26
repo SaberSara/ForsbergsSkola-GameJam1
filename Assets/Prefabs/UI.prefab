@@ -661,6 +661,7 @@ GameObject:
   - component: {fileID: 3115874681371114799}
   - component: {fileID: 3115874681371114796}
   - component: {fileID: 3115874681371114797}
+  - component: {fileID: 7406754257647103412}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -752,6 +753,22 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!111 &7406754257647103412
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3115874681371114707}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &3115874681439780390
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,7 +787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3115874681439780385
 RectTransform:
   m_ObjectHideFlags: 0
@@ -986,7 +1003,7 @@ GameObject:
   - component: {fileID: 3115874681705552950}
   - component: {fileID: 3115874681705552951}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Banana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

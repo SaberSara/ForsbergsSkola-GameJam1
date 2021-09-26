@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 8413660141988236919}
   - component: {fileID: 8413660141988236912}
   - component: {fileID: 8413660141988236913}
-  - component: {fileID: 8413660141988236914}
+  - component: {fileID: 1611193918889280239}
   m_Layer: 0
   m_Name: BananaPrefab 1
   m_TagString: Untagged
@@ -234,8 +234,8 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 8b3d1aa3f75bc3e46b59bd576f405dbc, type: 2}
---- !u!136 &8413660141988236914
-CapsuleCollider:
+--- !u!135 &1611193918889280239
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -244,10 +244,9 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: a5fa8e0f8d9f53f4b848934ae9d65eb3, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.61813885
-  m_Height: 3.7018287
-  m_Direction: 1
-  m_Center: {x: -1.7636453, y: -0.14776622, z: -0.019101981}
+  serializedVersion: 2
+  m_Radius: 1.8114802
+  m_Center: {x: 0.1938032, y: 0.32220492, z: 0.15761435}
 --- !u!1001 &8413660141033064929
 PrefabInstance:
   m_ObjectHideFlags: 0

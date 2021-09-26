@@ -24,8 +24,8 @@ The player goal is to hit as many objects as possible to collect points.***
 - ***Project starting dates: 25/09/2021***
 - ***Project estimated deadlines dates: 26/09/2021***
 - ***Made by: Erick V., Oliver K., Pavel S., Sara S., Svante W.***
-- ***Trello link: https://trello.com/b/jYWxwIWQ/forsbergsskola-gamejam1***
 - ***GameDesignDocument: https://docs.google.com/document/d/1skspF-NE6dIIFQO45h-QfbRH8fRDHWKyx--MptIOb6g/edit#***
+- ***Trello link: https://trello.com/b/jYWxwIWQ/forsbergsskola-gamejam1***
 - ***WebGL (Unity Play) playable version: https://play.unity.com/mg/other/nabanama***
 
 ## Very important notes about the project (Design/Art/developement)

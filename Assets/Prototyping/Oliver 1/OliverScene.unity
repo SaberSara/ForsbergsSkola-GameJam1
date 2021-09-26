@@ -962,7 +962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458691699}
   m_LocalRotation: {x: 0.38366288, y: -0.59430283, z: -0.38439858, w: 0.59316504}
-  m_LocalPosition: {x: 13.373506, y: -0.01797715, z: 0.008086027}
+  m_LocalPosition: {x: 14.100349, y: -0.33828956, z: -0.2009204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6737281245811127286}
@@ -1659,9 +1659,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8413660141988236914, guid: 2a52a3b7be5eaee47b3fb1565bab4175, type: 3}
+      propertyPath: m_Radius
+      value: 0.7178889
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413660141988236914, guid: 2a52a3b7be5eaee47b3fb1565bab4175, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413660141988236914, guid: 2a52a3b7be5eaee47b3fb1565bab4175, type: 3}
+      propertyPath: m_Center.x
+      value: -1.7636437
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413660141988236914, guid: 2a52a3b7be5eaee47b3fb1565bab4175, type: 3}
+      propertyPath: m_Center.y
+      value: -0.14776623
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413660141988236914, guid: 2a52a3b7be5eaee47b3fb1565bab4175, type: 3}
+      propertyPath: m_Center.z
+      value: 0.08064795
+      objectReference: {fileID: 0}
     - target: {fileID: 8413660141988236915, guid: 2a52a3b7be5eaee47b3fb1565bab4175, type: 3}
       propertyPath: m_Name
       value: BananaPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413660141988236915, guid: 2a52a3b7be5eaee47b3fb1565bab4175, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8413660141988236918, guid: 2a52a3b7be5eaee47b3fb1565bab4175, type: 3}
       propertyPath: m_RootOrder

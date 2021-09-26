@@ -1318,7 +1318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"X Value ToiletJump","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Y
-      Value Toilet Jump","value":{"$content":13.0,"$type":"System.Single"},"$version":"A"},{"name":"playerSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Value Toilet Jump","value":{"$content":13.0,"$type":"System.Single"},"$version":"A"},{"name":"playerSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jumps","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!54 &1952522668
 Rigidbody:

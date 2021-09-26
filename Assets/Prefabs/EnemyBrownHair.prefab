@@ -869,9 +869,10 @@ GameObject:
   - component: {fileID: 1403510884998314519}
   - component: {fileID: 1307526095605205149}
   - component: {fileID: 1337807393853603795}
+  - component: {fileID: 1734344417252554861}
   m_Layer: 0
   m_Name: EnemyBrownHair
-  m_TagString: Player
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -927,6 +928,18 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1734344417252554861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401450355323522515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4c9199138bd2347a25c693aeb2b1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1401658947817763157
 GameObject:
   m_ObjectHideFlags: 0

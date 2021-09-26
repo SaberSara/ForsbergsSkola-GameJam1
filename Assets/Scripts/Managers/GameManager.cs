@@ -118,7 +118,7 @@ public class GameManager : MonoBehaviour
             OnGameEnd();
         }*/
         //
-        scoreText.text = "Score :"+score;
+        scoreText.text = ""+score;
 
     }
 
@@ -131,7 +131,7 @@ public class GameManager : MonoBehaviour
             jumps = 0;
             OnGameEnd();
         }
-        jumpText.text = "Jumps :" + jumps;
+        jumpText.text = "" + jumps;
 
     }
 

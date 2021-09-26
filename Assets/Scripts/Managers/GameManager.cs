@@ -13,8 +13,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.Scripting;
-
+using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Game Manager script (eeeeh, that is really a fast script done in a game jams, :))
@@ -26,17 +26,39 @@ public class GameManager : MonoBehaviour
     #endregion
     #region PUBLIC_VARIABLES
 
+    public GameManager instance;
     public TMP_Text scoreText;
+    public TMP_Text jumpText;
     public Animator UIInGameAnimator;
-    
+    public SceneVariables sceneVariables;
+
+    [Header("Player's stuff")]
+    public GameObject playerGO;
+    public float maxjumps = 6;
+    public float jumps=0;
+    public int score = 0;
 
     #endregion
     #region MONOBEHAVIOUR_METHODS
     #region MONOBEHAVIOUR_METHODS_PRIVATE
+
+    public void Awake()
+    {
+        if (instance == null) 
+        {
+            instance = this; 
+        }
+        else 
+        {
+            Destroy(gameObject); 
+            return; 
+        }
+        DontDestroyOnLoad(gameObject);
+    }
     //Example Method and comment
     private void Update()
     {
-
+        ScoreUP();
     }
     #endregion
     #region PMONOBEHAVIOUR_METHODS_PUBLIC
@@ -49,7 +71,10 @@ public class GameManager : MonoBehaviour
 
     public void OnClickGameStart()
     {
-
+        jumps = maxjumps;
+        score = 0;
+        jumpText.text = jumps.ToString();
+        scoreText.text = score.ToString();
     }
     public void OnClickGamePause()
     {
@@ -65,17 +90,27 @@ public class GameManager : MonoBehaviour
 
     public void OnClickGameRestart()
     {
-
+        jumps = maxjumps;
+        jumpText.text = jumps.ToString();
+        SceneManager.LoadScene("MainGameScene");
     }
 
     public void ScoreUP()
     {
+        
+        jumps = maxjumps-(float)Variables.ActiveScene.Get("Jumps");
+        if(jumps<=0)
+        {
+            jumps = 0;
+            OnGameEnd();
+        }
+        jumpText.text = "Jumps :"+jumps;
 
     }
 
     public void OnGameEnd()
     {
-
+        Time.timeScale = 0;
     }
     #endregion
     #endregion

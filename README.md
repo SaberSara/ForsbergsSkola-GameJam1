@@ -6,7 +6,7 @@ A repo created for **"The game jam"** purpose only
 (Please **Do not share**, rights prohibited to download on out of **"approved permissions from team meambers"**)
 
 ### Game concept
-![img](https://github.com/SaberSara/WorkSample1_SuperShooter/blob/main/GitHub_Image_11.gif?raw=true)
+![img](https://github.com/SaberSara/ForsbergsSkola-GameJam1/blob/main/GitHub_ImgSrc_01.png?raw=true)
 
 ## About the project (developement)
 - ***Project starting dates: 25/09/2021***

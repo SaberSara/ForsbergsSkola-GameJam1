@@ -22,7 +22,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     #region PRIVATE_VARIABLES
-
+    private bool gameStarted;
     #endregion
     #region PUBLIC_VARIABLES
 
@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour
     public float maxjumps = 6;
     public float jumps=0;
     public int score = 0;
+
 
     #endregion
     #region MONOBEHAVIOUR_METHODS
@@ -58,7 +59,16 @@ public class GameManager : MonoBehaviour
     //Example Method and comment
     private void Update()
     {
-        ScoreUP();
+        if(SceneManager.GetActiveScene().name=="MainGameScene")
+        {
+            gameStarted = true;
+        }
+        if (gameStarted)
+        {
+            
+            ScoreUP();
+        }
+        
     }
     #endregion
     #region PMONOBEHAVIOUR_METHODS_PUBLIC
@@ -71,10 +81,13 @@ public class GameManager : MonoBehaviour
 
     public void OnClickGameStart()
     {
+        
         jumps = maxjumps;
         score = 0;
         jumpText.text = jumps.ToString();
         scoreText.text = score.ToString();
+        SceneManager.LoadScene("MainGameScene");
+        gameStarted = true;
     }
     public void OnClickGamePause()
     {
@@ -99,7 +112,7 @@ public class GameManager : MonoBehaviour
     {
         
         jumps = maxjumps-(float)Variables.ActiveScene.Get("Jumps");
-        if(jumps<=0)
+        if(jumps<0)
         {
             jumps = 0;
             OnGameEnd();
@@ -110,6 +123,7 @@ public class GameManager : MonoBehaviour
 
     public void OnGameEnd()
     {
+        gameStarted = false;
         Time.timeScale = 0;
     }
     #endregion

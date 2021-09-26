@@ -6,6 +6,18 @@ A repo created for **"The game jam"** purpose only
 (Please **Do not share**, rights prohibited to download on out of **"approved permissions from team meambers"**)
 
 ### Game concept
+- ***Game Title: NABANAMA***
+- ***Game Genre : Endless Runner***
+- ***Game Perspective : 2.5D Side-View***
+- ***Game Mode : Single Player***
+- ***Target Audience : Casual*** 
+- ***Core Idea: A banana gets shot from a toilet in the air and it will bounce on the ground until it loses all its speed.
+Hitting the ground would make you lose some speed, hitting specific objects (“enemies”) make you gain speed and collect points.
+(In the future we could implement a store where you can buy upgrades using the points/coins)
+You can also jump a specific amount of times (even mid-air) to avoid collision with the ground. A counter on the screen will show how many jumps you have left.
+Some objects will give you extra jumps.
+The player goal is to hit as many objects as possible to collect points.***
+
 ![img](https://github.com/SaberSara/ForsbergsSkola-GameJam1/blob/main/GitHub_ImgSrc_01.png?raw=true)
 
 ## About the project (developement)
